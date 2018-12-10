@@ -4,7 +4,7 @@
 
   <groupId>urjc.isi</groupId>
   <artifactId>pruebasSparkJava</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>pruebasSparkJava</name>
@@ -84,8 +84,8 @@
 				<jdkVersion>1.8</jdkVersion>
 				<appName>spark-example-onac8</appName>
 				<processTypes>
-				<!-- Tell Heroku how to launch your application -->
-				<web>java -jar ./target/pruebasSparkJava-0.0.1-jar-with-dependencies.jar</web>
+					<!-- Tell Heroku how to launch your application -->
+					<web>java -jar ./target/pruebasSparkJava-0.0.1-jar-with-dependencies.jar</web>
 				</processTypes>
 				</configuration>
 		</plugin>
